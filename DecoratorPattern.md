@@ -22,3 +22,104 @@
 ###缺点###
 1. 会产生很多的小对象，增加了系统的复杂性
 2. 这种比继承更加灵活机动的特性，也同时意味着装饰模式比继承更加易于出错，排错也很困难，对于多次装饰的对象，调试时寻找错误可能需要逐级排查，较为烦琐。
+
+###UML结构图###
+[!DecoratorPattern](/imgs/post/DecoratorPatternUML.png)
+
+###源码###
+Component:定义一个对象接口，可以给这些对象动态地添加职责。
+```java
+public interface Component {
+
+    public void operation();
+
+}
+```
+
+ConcreteComponent:定义一个对象，可以给这个对象添加一些职责。
+```java
+/**
+ * 被装饰的对象
+ * Created by zhenguo on 11/20/14.
+ */
+public class ConcreteComponent implements Component {
+
+    @Override
+    public void operation() {
+        System.out.println("我是被装饰的对象");
+    }
+
+}
+```
+
+Decorator:拥有一个指向Component对象的引用，并定义一个与 Component接口一致的接口。
+```java
+public class Decorator implements Component {
+
+    private Component component;
+
+    public Decorator(Component component) {
+        this.component = component;
+    }
+
+    @Override
+    public void operation() {
+
+        if (component != null) {
+            component.operation();
+        }
+
+    }
+}
+```
+
+ConcreteDecoratorA:装饰部分A
+```java
+/**
+ * 具体装饰
+ * Created by zhenguo on 11/20/14.
+ */
+public class ConcreteDecoratorA extends Decorator {
+
+    public ConcreteDecoratorA(Component component) {
+        super(component);
+    }
+
+    @Override
+    public void operation() {
+        super.operation();
+        decorate();
+    }
+
+    private void decorate() {
+        System.out.println("装饰操作A");
+    }
+}
+```
+
+ConcreteDecoratorB:装饰部分B
+```java
+/**
+ * 具体装饰
+ * Created by zhenguo on 11/20/14.
+ */
+public class ConcreteDecoratorB extends Decorator {
+
+    private String tag = "";
+
+    public ConcreteDecoratorB(Component component) {
+        super(component);
+        tag = getClass().getSimpleName();
+    }
+
+    @Override
+    public void operation() {
+        super.operation();
+        System.out.println("装饰操作B tag = " + tag);
+    }
+}
+```
+
+
+
+
