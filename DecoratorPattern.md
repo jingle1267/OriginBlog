@@ -24,7 +24,7 @@
 2. 这种比继承更加灵活机动的特性，也同时意味着装饰模式比继承更加易于出错，排错也很困难，对于多次装饰的对象，调试时寻找错误可能需要逐级排查，较为烦琐。
 
 ###UML结构图###
-[!DecoratorPattern](/imgs/post/DecoratorPatternUML.png)
+![DecoratorPattern](http://worthed.com/imgs/post/DecoratorPatternUML.png)
 
 ###源码###
 Component:定义一个对象接口，可以给这些对象动态地添加职责。
