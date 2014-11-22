@@ -15,7 +15,192 @@
   产品族的扩展将是一件十分费力的事情，假如产品族中需要增加一个新的产品，则几乎所有的工厂类都需要进行修改。所以使用抽象工厂模式时，对产品等级结构的划分是非常重要的。
 
 ###UML结构图###
-
+![AbstractFactoryPattern](/imgs/post/AbstractFactoryPattern.png)
 
 ###源码###
+IFactory:抽象工厂类
+```java
+/**
+ * 抽象工厂
+ *
+ * Created by zhenguo on 11/22/14.
+ */
+public interface IFactory {
+
+    /**
+     * 创建产品A
+     *
+     * @return
+     */
+    public IProductA createProductA();
+
+    /**
+     * 创建产品B
+     *
+     * @return
+     */
+    public IProductB createProductB();
+
+}
+```
+
+Factory1:工厂1
+```java
+/**
+ * 工厂1
+ *
+ * Created by zhenguo on 11/22/14.
+ */
+public class Factory1 implements IFactory {
+    @Override
+    public IProductA createProductA() {
+        return new ProductA1();
+    }
+
+    @Override
+    public IProductB createProductB() {
+        return new ProductB1();
+    }
+}
+```
+
+Factory2:工厂2
+```java
+/**
+ * 工厂2
+ *
+ * Created by zhenguo on 11/22/14.
+ */
+public class Factory2 implements IFactory {
+    @Override
+    public IProductA createProductA() {
+        return new ProductA2();
+    }
+
+    @Override
+    public IProductB createProductB() {
+        return new ProductB2();
+    }
+}
+```
+
+IProductA:抽象产品A
+```java
+/**
+ * 抽象产品A
+ *
+ * Created by zhenguo on 11/22/14.
+ */
+public interface IProductA {
+
+    /**
+     * 产品A的方法
+     */
+    public void run();
+
+}
+```
+
+ProductA1:产品A1
+```java
+/**
+ * Created by zhenguo on 11/22/14.
+ */
+public class ProductA1 implements IProductA {
+    @Override
+    public void run() {
+        System.out.println(getClass().getSimpleName());
+    }
+}
+```
+
+ProductA2:产品A2
+```java
+/**
+ * Created by zhenguo on 11/22/14.
+ */
+public class ProductA2 implements IProductA {
+    @Override
+    public void run() {
+        System.out.println(getClass().getSimpleName());
+    }
+}
+```
+
+IProductB:抽象产品B
+```java
+/**
+ * 抽象产品B
+ *
+ * Created by zhenguo on 11/22/14.
+ */
+public interface IProductB {
+
+    /**
+     * 产品B的方法
+     */
+    public void run();
+
+}
+```
+
+ProductB1:产品B1
+```java
+/**
+ * Created by zhenguo on 11/22/14.
+ */
+public class ProductB1 implements IProductB {
+    @Override
+    public void run() {
+        System.out.println(getClass().getSimpleName());
+    }
+}
+```
+
+ProductB2:产品B2
+```java
+/**
+ * Created by zhenguo on 11/22/14.
+ */
+public class ProductB2 implements IProductB {
+    @Override
+    public void run() {
+        System.out.println(getClass().getSimpleName());
+    }
+}
+```
+
+Client:客户端调用类
+```java
+/**
+ * 抽象工厂(Abstract Factory)，提供一个创建一系列相关或相互依赖对象的接口，而无需指定他们具体的类。
+ *
+ * Created by zhenguo on 11/22/14.
+ */
+public class Client {
+
+    public static void main(String[] args) {
+        IFactory factory;
+        IProductA productA;
+        IProductB productB;
+
+        factory = new Factory1();
+        productA = factory.createProductA();
+        productB = factory.createProductB();
+        productA.run();
+        productB.run();
+
+        factory = new Factory2();
+        productA = factory.createProductA();
+        productB = factory.createProductB();
+        productA.run();
+        productB.run();
+
+    }
+
+}
+```
+
+
+
 
