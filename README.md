@@ -11,5 +11,5 @@ OriginBlog
 [抽象工厂](https://github.com/worthed/OriginBlog/blob/master/AbstractFactoryPattern.md) <br>
 [代理模式](https://github.com/worthed/OriginBlog/blob/master/ProxyPattern.md) <br>
 [原型模式](https://github.com/worthed/OriginBlog/blob/master/PrototypePattern.md) <br>
-
+[模板方法](https://github.com/worthed/OriginBlog/blob/master/TemplateMethodPattern.md)
 
