@@ -21,6 +21,76 @@
 ![PrototypePattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/PrototypePattern.png)
 
 ###源码###
+Prototype:抽象原型角色
+```java
+/**
+ * 抽象原型角色
+ *
+ * Created by zhenguo on 11/23/14.
+ */
+public interface Prototype {
+
+    /**
+     * 克隆自身的方法
+     *
+     * @return 一个从自身克隆出来的对象
+     */
+    public Object clone();
+
+}
+```
+
+ConcretePrototype:具体的原型实现对象
+```java
+/**
+ * 具体的实现对象
+ *
+ * Created by zhenguo on 11/23/14.
+ */
+public class ConcretePrototype implements Prototype {
+
+    public String name = "tag";
+    public int age = 0;
+
+    public ConcretePrototype(String tag) {
+        name = tag;
+    }
+
+    @Override
+    public Object clone() {
+        // 最简单的克隆，新建一个自身对象。
+        ConcretePrototype concretePrototype = new ConcretePrototype(this.name);
+        concretePrototype.age = this.age;
+        return concretePrototype;
+    }
+}
+```
+
+Client:客户端调用
+```java
+/**
+ * 原型模式(Prototype)，用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象。
+ * 原型模式其实就是从一个对象再创建另外一个可定制的对象，而且不需知道任何的创建的细节。
+ *
+ * Created by zhenguo on 11/23/14.
+ */
+public class Client {
+
+    public static void main(String[] args) {
+
+        ConcretePrototype concretePrototype = new ConcretePrototype("张三");
+        concretePrototype.age = 24;
+
+        ConcretePrototype concretePrototype1 = (ConcretePrototype) concretePrototype.clone();
+        concretePrototype1.age = 14;
+
+        System.out.println(String.format("用户：%s 年龄：%d", concretePrototype.name, concretePrototype.age));
+        System.out.println(String.format("用户：%s 年龄：%d", concretePrototype1.name, concretePrototype1.age));
+
+    }
+
+}
+```
 
 
   
