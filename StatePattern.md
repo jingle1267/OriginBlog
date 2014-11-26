@@ -14,7 +14,7 @@ State Pattern
   导致较多的ConcreteState子类。
   
 ###UML结构图###
-![StatePattern](/imgs/post/StatePattern.png)
+![StatePattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/StatePattern.png)
 
 ###源码###
 IState:抽象状态类，定义一个接口以封装与Context的一个特定状态相关的行为
