@@ -14,5 +14,21 @@ OriginBlog
 [模板方法](https://github.com/worthed/OriginBlog/blob/master/TemplateMethodPattern.md) <br>
 [状态模式](https://github.com/worthed/OriginBlog/blob/master/StatePattern.md) <br> <br>
 
+[外观模式]()<br>
+[建造者模式]()<br>
+[观察者模式]()<br>
+[适配器模式]()<br>
+[备忘录模式]()<br>
+[组合模式]()<br>
+[迭代器模式]()<br>
+[单例模式]()<br>
+[桥接模式]()<br>
+[命令模式]()<br>
+[职责链模式]()<br>
+[中介者模式]()<br>
+[享元模式]()<br>
+[解释器模式]()<br>
+[访问者模式]()<br> <br>
+
 [源码地址](https://github.com/jingle1267/DesignPattern)
 
