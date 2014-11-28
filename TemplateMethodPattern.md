@@ -16,6 +16,94 @@ TemplateMethodPattern
   
 ###UML结构图###
 ![TemplateMethodPattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/TemplateMethodPattern.png)
+
 ###源码###
+AbstractClass:抽象模板
+```java
+/**
+ * 抽象模板
+ *
+ * Created by zhenguo on 11/24/14.
+ */
+public abstract class AbstractClass {
+
+    public abstract void start();
+
+    public abstract void end();
+
+    /**
+     * 模板方法 实现算法骨架
+     */
+    public void run() {
+        System.out.println("模板方法：");
+        start();
+        end();
+    }
+
+}
+```
+
+ConcreteClassA:实现抽象模板类A
+```java
+/**
+ * 实现抽象模板类A
+ *
+ * Created by zhenguo on 11/24/14.
+ */
+public class ConcreteClassA extends AbstractClass {
+    @Override
+    public void start() {
+        System.out.println("ConcreteClassA start()");
+    }
+
+    @Override
+    public void end() {
+        System.out.println("ConcreteClassA end()");
+    }
+}
+```
+
+ConcreteClassB:实现抽象模板类B
+```java
+/**
+ * 实现抽象模板类B
+ *
+ * Created by zhenguo on 11/24/14.
+ */
+public class ConcreteClassB extends AbstractClass {
+    @Override
+    public void start() {
+        System.out.println("ConcreteClassB start()");
+    }
+
+    @Override
+    public void end() {
+        System.out.println("ConcreteClassB end()");
+    }
+}
+```
+
+Client:客户端调用
+```java
+/**
+ * 客户端调用
+ *
+ * Created by zhenguo on 11/24/14.
+ */
+public class Client {
+
+    public static void main(String[] args) {
+        AbstractClass cls;
+
+        cls = new ConcreteClassA();
+        cls.run();
+
+        cls = new ConcreteClassB();
+        cls.run();
+
+    }
+
+}
+```
 
 
