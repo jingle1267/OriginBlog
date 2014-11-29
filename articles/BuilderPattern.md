@@ -15,6 +15,7 @@ Builder Pattern
 2. 如果产品的内部变化复杂，可能会导致需要定义很多具体建造者类来实现这种变化，导致系统变得很庞大。
 
 ###UML结构图###
+![BuilderPattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/BuilderPattern.png)
 
 ###源码###
 Builder:抽象建造者类
