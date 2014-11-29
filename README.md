@@ -17,7 +17,7 @@ OriginBlog
 
 [外观模式](https://github.com/worthed/OriginBlog/blob/master/FacadePattern.md) <br>
 [建造者模式](#) <br>
-[观察者模式](#) <br>
+[观察者模式](https://github.com/worthed/OriginBlog/blob/master/ObserverPattern.md) <br>
 [适配器模式](#) <br>
 [备忘录模式](#) <br>
 [组合模式](#) <br>
