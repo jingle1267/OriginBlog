@@ -1,5 +1,5 @@
-OriginBlog
-==========
+设计模式
+=======
 
 [设计模式专题](http://worthed.com/blog/categories/she-ji-mo-shi/) <br> <br>
 
@@ -13,10 +13,10 @@ OriginBlog
 [模板方法](https://github.com/worthed/OriginBlog/blob/master/articles/TemplateMethodPattern.md) <br>
 [状态模式](https://github.com/worthed/OriginBlog/blob/master/articles/StatePattern.md) <br> 
 [外观模式](https://github.com/worthed/OriginBlog/blob/master/articles/FacadePattern.md) <br>
-[建造者模式](https://github.com/worthed/OriginBlog/blob/master/articles/BuilderPattern.md) <br> <br>
-
+[建造者模式](https://github.com/worthed/OriginBlog/blob/master/articles/BuilderPattern.md) <br> 
 [观察者模式](https://github.com/worthed/OriginBlog/blob/master/articles/ObserverPattern.md) <br>
-[适配器模式](https://github.com/worthed/OriginBlog/blob/master/articles/AdapterPattern.md) <br>
+[适配器模式](https://github.com/worthed/OriginBlog/blob/master/articles/AdapterPattern.md) <br> <br>
+
 [备忘录模式](https://github.com/worthed/OriginBlog/blob/master/articles/MementoPattern.md) <br>
 [组合模式](https://github.com/worthed/OriginBlog/blob/master/articles/CompositePattern.md) <br>
 [迭代器模式](https://github.com/worthed/OriginBlog/blob/master/articles/IteratorPattern.md) <br>
@@ -30,6 +30,11 @@ OriginBlog
 [访问者模式](https://github.com/worthed/OriginBlog/blob/master/articles/VisitorPattern.md) <br> <br>
 
 [源码地址](https://github.com/jingle1267/DesignPattern) <br>
-[我的博客](http://worthed.com) <br>
+
+| [![HEAD](https://avatars2.githubusercontent.com/u/3887795?v=2&s=120)](http://worthed.com "Visit worthed.com") |
+|---|
+| [WORTHED.COM](http://worthed.com) |
+<br>
 ![worthedQRCode](https://github.com/worthed/OriginBlog/raw/master/images/worthedQRCode.jpg)
+
 
