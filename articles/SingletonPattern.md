@@ -1,7 +1,9 @@
 Singleton Pattern
 =================
 
-  单例模式(Singleton)，保证一个类仅有一个实例，并提供一个访问它的全局访问点。通常我们可以让一个全局变量使得一个对象被访问，疍它不能防止你实例化多个对象。一个最好的的办法就是，让类自身负责保存它的唯一实例。这个类可以保证没有其他实例可以被创建，并且它可以提供一个访问该实例的方法。
+  单例模式(Singleton)，保证一个类仅有一个实例，并提供一个访问它的全局访问点。
+
+  通常我们可以让一个全局变量使得一个对象被访问，但它不能防止你实例化多个对象。一个最好的的办法就是，让类自身负责保存它的唯一实例。这个类可以保证没有其他实例可以被创建，并且它可以提供一个访问该实例的方法。
 
 ###适用场景###
 
@@ -16,7 +18,7 @@ Singleton Pattern
 2. 单例类的职责过重，在一定程度上违背了“单一职责原则”。
 
 ###UML结构图###
-[SingletonPattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/SingletonPattern.png)
+![SingletonPattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/SingletonPattern.png)
 
 ###源码###
 SingletonA：饿汉是单例类
