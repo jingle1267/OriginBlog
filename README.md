@@ -15,12 +15,12 @@
 [外观模式](https://github.com/worthed/OriginBlog/blob/master/articles/FacadePattern.md) <br>
 [建造者模式](https://github.com/worthed/OriginBlog/blob/master/articles/BuilderPattern.md) <br> 
 [观察者模式](https://github.com/worthed/OriginBlog/blob/master/articles/ObserverPattern.md) <br>
-[适配器模式](https://github.com/worthed/OriginBlog/blob/master/articles/AdapterPattern.md) <br> <br>
-
+[适配器模式](https://github.com/worthed/OriginBlog/blob/master/articles/AdapterPattern.md) <br> 
 [备忘录模式](https://github.com/worthed/OriginBlog/blob/master/articles/MementoPattern.md) <br>
 [组合模式](https://github.com/worthed/OriginBlog/blob/master/articles/CompositePattern.md) <br>
-[迭代器模式](https://github.com/worthed/OriginBlog/blob/master/articles/IteratorPattern.md) <br>
-[单例模式](https://github.com/worthed/OriginBlog/blob/master/articles/SingletonPattern.md) <br>
+[迭代器模式(未完待续)](https://github.com/worthed/OriginBlog/blob/master/articles/IteratorPattern.md) <br>
+[单例模式](https://github.com/worthed/OriginBlog/blob/master/articles/SingletonPattern.md) <br> <br>
+
 [桥接模式](https://github.com/worthed/OriginBlog/blob/master/articles/BridgePattern.md) <br>
 [命令模式](https://github.com/worthed/OriginBlog/blob/master/articles/CommandPattern.md) <br>
 [职责链模式](https://github.com/worthed/OriginBlog/blob/master/articles/ChainOfResponsibilityPattern.md) <br>
