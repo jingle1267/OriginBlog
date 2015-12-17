@@ -1,7 +1,7 @@
 设计模式
 =======
 
-[设计模式专题](http://worthed.com/blog/categories/she-ji-mo-shi/) <br> <br>
+[设计模式专题](http://ihongqiqu.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/) <br> <br>
 
 [装饰模式](https://github.com/worthed/OriginBlog/blob/master/articles/DecoratorPattern.md) <br>
 [工厂方法](https://github.com/worthed/OriginBlog/blob/master/articles/FactoryMethodPattern.md) <br>
@@ -33,7 +33,7 @@
 
 | [![HEAD](https://avatars2.githubusercontent.com/u/3887795?v=2&s=120)](http://worthed.com "Visit worthed.com") |
 |---|
-| [WORTHED.COM](http://worthed.com) |
+| [IHONGQIQU.COM](http://ihongqiqu.com) |
 <br>
 ![worthedQRCode](https://github.com/worthed/OriginBlog/raw/master/images/worthedQRCode.jpg)
 
