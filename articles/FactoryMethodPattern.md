@@ -23,7 +23,7 @@ Factory Method Pattern
 
 ###UML结构图###
 
-![FactoryMethodPattern](http://worthed.com/imgs/post/FactoryMethodPattern.png)
+![FactoryMethodPattern](http://ihongqiqu.com/imgs/post/FactoryMethodPattern.png)
 
 ###源码###
 

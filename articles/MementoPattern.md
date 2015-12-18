@@ -15,7 +15,7 @@ Memento Pattern
   角色状态需要完整存储到备忘录对象中，如果状态数据很大很多，那么在资源消耗上，备忘录对象会非常耗内存。
 
 ###UML结构图###
-![MementoPattern](http://worthed.com/imgs/post/MementoPattern.png)
+![MementoPattern](http://ihongqiqu.com/imgs/post/MementoPattern.png)
 
 ###源码
 Memento:备忘录类
