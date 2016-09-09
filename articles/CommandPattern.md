@@ -21,4 +21,85 @@ Command Pattern
 
 ###UML结构图###
 
+![DecoratorPattern](http://ihongqiqu.com/imgs/post/CommandPatternUML.png)
+
 ###源码###
+
+接受者，知道如何实施与执行一个与请求相关的操作。
+
+```java
+public class Receiver {
+
+    public void action() {
+        System.out.println("执行操作");
+    }
+
+}
+```
+
+命令抽象类，用来声明执行操作的接口
+
+```java
+public abstract class Command {
+
+    protected Receiver receiver;
+
+    public Command(Receiver receiver) {
+        this.receiver = receiver;
+    }
+
+    public abstract void execute();
+}
+```
+
+命令实现类，将一个抽象者对象绑定于一个动作，调用接受者响应的操作，以实现Execute
+
+```java
+public class ConcreteCommand extends Command {
+
+    public ConcreteCommand(Receiver receiver) {
+        super(receiver);
+    }
+
+    @Override
+    public void execute() {
+        receiver.action();
+    }
+}
+```
+
+要求命令执行这个请求
+
+```java
+public class Invoker {
+
+    private Command command;
+
+    public void setCommand(Command command) {
+        this.command = command;
+    }
+
+    public void executeCommand() {
+        command.execute();
+    }
+    
+}
+```
+
+  客户端调用
+  
+  命令模式(Command)，将一个请求封装为一个对象，从而使你可用不同的请求对客户进行参数化；对请求队列或记录请求日志，以及支持可撤销的操作。
+
+```java
+public class Client {
+
+    public static void main(String[] args) {
+        Receiver receiver = new Receiver();
+        Command command = new ConcreteCommand(receiver);
+        Invoker invoker = new Invoker();
+        invoker.setCommand(command);
+        invoker.executeCommand();
+    }
+
+}
+```
