@@ -21,7 +21,7 @@ Command Pattern
 
 ###UML结构图###
 
-![DecoratorPattern](http://ihongqiqu.com/imgs/post/CommandPatternUML.png)
+![Command Pattern](http://ihongqiqu.com/imgs/post/CommandPatternUML.png)
 
 ###源码###
 
