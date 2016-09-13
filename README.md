@@ -18,9 +18,8 @@
 [适配器模式](https://github.com/worthed/OriginBlog/blob/master/articles/AdapterPattern.md) <br> 
 [备忘录模式](https://github.com/worthed/OriginBlog/blob/master/articles/MementoPattern.md) <br>
 [组合模式](https://github.com/worthed/OriginBlog/blob/master/articles/CompositePattern.md) <br>
-[迭代器模式(未完待续)](https://github.com/worthed/OriginBlog/blob/master/articles/IteratorPattern.md) <br>
-[单例模式](https://github.com/worthed/OriginBlog/blob/master/articles/SingletonPattern.md) <br> <br>
-
+[迭代器模式](https://github.com/worthed/OriginBlog/blob/master/articles/IteratorPattern.md) <br>
+[单例模式](https://github.com/worthed/OriginBlog/blob/master/articles/SingletonPattern.md) <br> 
 [桥接模式](https://github.com/worthed/OriginBlog/blob/master/articles/BridgePattern.md) <br>
 [命令模式](https://github.com/worthed/OriginBlog/blob/master/articles/CommandPattern.md) <br>
 [职责链模式](https://github.com/worthed/OriginBlog/blob/master/articles/ChainOfResponsibilityPattern.md) <br>
@@ -35,6 +34,6 @@
 |---|
 | [IHONGQIQU.COM](http://ihongqiqu.com) |
 <br>
-![worthedQRCode](https://github.com/worthed/OriginBlog/raw/master/images/worthedQRCode.jpg)
+![IHONGQIQU QR CODE](https://raw.githubusercontent.com/jingle1267/OriginBlog/master/images/IHONGQIQU.png)
 
 

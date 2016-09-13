@@ -26,8 +26,6 @@ Visitor Pattern
 
 ###源码###
 
-
-
 ```java
 public interface Element {
 
