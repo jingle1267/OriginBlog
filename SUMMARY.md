@@ -12,7 +12,7 @@
    * [CompositePattern](articles/CompositePattern.md)
    * [FacadePattern](articles/FacadePattern.md)
    * [BridgePattern](articles/BridgePattern.md)
-   * ProxyPattern
+   * [ProxyPattern](articles/ProxyPattern.md)
    * [FlyweightPattern](articles/FlyweightPattern.md)
 * [行为型](xing_wei_xing.md)
 
