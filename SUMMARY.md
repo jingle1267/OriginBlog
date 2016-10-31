@@ -26,4 +26,5 @@
    * [CommandPattern](articles/CommandPattern.md)
    * [ChainOfResponsibilityPattern](articles/ChainOfResponsibilityPattern.md)
    * [InterpreterPattern](articles/InterpreterPattern.md)
+   * VisitorPattern
 
