@@ -12,8 +12,6 @@
    * [CompositePattern](articles/CompositePattern.md)
    * [FacadePattern](articles/FacadePattern.md)
    * [BridgePattern](articles/BridgePattern.md)
-   * [ProxyPattern](articles/ProxyPattern.md)
-   * [FlyweightPattern](articles/FlyweightPattern.md)
-   * [AdapterPattern](articles/AdapterPattern.md)
+   * ProxyPattern
 * [行为型](xing_wei_xing.md)
 
