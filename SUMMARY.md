@@ -21,5 +21,5 @@
    * [TemplateMethodPattern](articles/TemplateMethodPattern.md)
    * [StatePattern](articles/StatePattern.md)
    * [ObserverPattern](articles/ObserverPattern.md)
-   * MementoPattern
+   * [MementoPattern](articles/MementoPattern.md)
 
