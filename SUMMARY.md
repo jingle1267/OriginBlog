@@ -9,5 +9,6 @@
    * [PrototypePattern](articles/PrototypePattern.md)
    * [SingletonPattern](articles/SingletonPattern.md)
 * [结构型](jie_gou_xing.md)
+   * CompositePattern
 * [行为型](xing_wei_xing.md)
 
