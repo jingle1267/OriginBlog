@@ -22,4 +22,5 @@
    * [StatePattern](articles/StatePattern.md)
    * [ObserverPattern](articles/ObserverPattern.md)
    * [MementoPattern](articles/MementoPattern.md)
+   * [IteratorPattern](articles/IteratorPattern.md)
 
