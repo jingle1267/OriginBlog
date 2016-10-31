@@ -13,5 +13,6 @@
    * [FacadePattern](articles/FacadePattern.md)
    * [BridgePattern](articles/BridgePattern.md)
    * ProxyPattern
+   * AdapterPattern
 * [行为型](xing_wei_xing.md)
 
