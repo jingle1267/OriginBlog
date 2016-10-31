@@ -27,4 +27,5 @@
    * [ChainOfResponsibilityPattern](articles/ChainOfResponsibilityPattern.md)
    * [InterpreterPattern](articles/InterpreterPattern.md)
    * VisitorPattern
+   * MediatorPattern
 
