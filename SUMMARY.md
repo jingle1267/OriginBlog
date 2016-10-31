@@ -25,4 +25,5 @@
    * [IteratorPattern](articles/IteratorPattern.md)
    * [CommandPattern](articles/CommandPattern.md)
    * [ChainOfResponsibilityPattern](articles/ChainOfResponsibilityPattern.md)
+   * InterpreterPattern
 
