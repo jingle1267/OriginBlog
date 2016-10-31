@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [创建型](chuang_jian_xing.md)
-   * [SimpleFactoryPattern](article/SimpleFactoryPattern)
+   * [SimpleFactoryPattern](article/SimpleFactoryPattern.md)
 * [结构型](jie_gou_xing.md)
 * [行为型](xing_wei_xing.md)
 
