@@ -17,5 +17,5 @@
    * [FlyweightPattern](articles/FlyweightPattern.md)
    * [DecoratorPattern](articles/DecoratorPattern.md)
 * [行为型](xing_wei_xing.md)
-   * StrategyPattern
+   * [StrategyPattern](articles/StrategyPattern.md)
 
