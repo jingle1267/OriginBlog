@@ -24,5 +24,5 @@
    * [MementoPattern](articles/MementoPattern.md)
    * [IteratorPattern](articles/IteratorPattern.md)
    * [CommandPattern](articles/CommandPattern.md)
-   * ChainOfResponsibilityPattern
+   * [ChainOfResponsibilityPattern](articles/ChainOfResponsibilityPattern.md)
 
