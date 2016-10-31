@@ -20,11 +20,4 @@
    * [StrategyPattern](articles/StrategyPattern.md)
    * [TemplateMethodPattern](articles/TemplateMethodPattern.md)
    * [StatePattern](articles/StatePattern.md)
-   * [ObserverPattern](articles/ObserverPattern.md)
-   * [MementoPattern](articles/MementoPattern.md)
-   * [IteratorPattern](articles/IteratorPattern.md)
-   * [CommandPattern](articles/CommandPattern.md)
-   * [ChainOfResponsibilityPattern](articles/ChainOfResponsibilityPattern.md)
-   * [InterpreterPattern](articles/InterpreterPattern.md)
-   * [VisitorPattern](articles/VisitorPattern.md)
-   * [MediatorPattern](articles/MediatorPattern.md)
+
