@@ -15,6 +15,6 @@
    * [ProxyPattern](articles/ProxyPattern.md)
    * [AdapterPattern](articles/AdapterPattern.md)
    * [FlyweightPattern](articles/FlyweightPattern.md)
-   * DecoratorPattern
+   * [DecoratorPattern](articles/DecoratorPattern.md)
 * [行为型](xing_wei_xing.md)
 
