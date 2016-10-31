@@ -20,5 +20,6 @@
    * [StrategyPattern](articles/StrategyPattern.md)
    * [TemplateMethodPattern](articles/TemplateMethodPattern.md)
    * [StatePattern](articles/StatePattern.md)
-   * ObserverPattern
+   * [ObserverPattern](articles/ObserverPattern.md)
+   * MementoPattern
 
