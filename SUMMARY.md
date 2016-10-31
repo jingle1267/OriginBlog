@@ -11,5 +11,6 @@
 * [结构型](jie_gou_xing.md)
    * [CompositePattern](articles/CompositePattern.md)
    * [FacadePattern](articles/FacadePattern.md)
+   * BridgePattern
 * [行为型](xing_wei_xing.md)
 
