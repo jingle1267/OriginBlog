@@ -54,9 +54,9 @@ Markdown版本:
 
 [源码地址](https://github.com/jingle1267/DesignPattern) <br>
 
-| [![HEAD](https://avatars2.githubusercontent.com/u/3887795?v=2&s=120)](http://worthed.com "Visit worthed.com") |
+| [![HEAD](https://avatars2.githubusercontent.com/u/3887795?v=2&s=120)](https://94275.cn "Visit 94275.cn") |
 |---|
-| [IHONGQIQU.COM](http://ihongqiqu.com) |
+| [94275.cn](https://94275.cn) |
 <br>
 
 ![IHONGQIQU QR CODE](https://raw.githubusercontent.com/jingle1267/OriginBlog/master/images/IHONGQIQU.png)
