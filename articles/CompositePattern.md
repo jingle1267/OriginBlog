@@ -14,7 +14,7 @@ Composite Pattern
   组合模式有一个非常明显的缺点，看到我们在客户端调用中的定义，提到树叶和树枝使用时的定义了吗？直接使用了实现类！这在面向接口编程上是很不恰当的，与依赖倒置原则冲突，读者在使用的时候要考虑清楚，它限制了你接口的影响范围。
 
 ###UML结构图###
-![CompositePattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/CompositePattern.png)
+![CompositePattern](https://94275.cn/imgs/post/CompositePattern.png)
 
 ###源码###
 Component:组合对象抽象类

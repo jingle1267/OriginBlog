@@ -20,7 +20,7 @@ Strategy Pattern
 2. 策略模式造成很多的策略类，每个具体策略类都会产生一个新类。
 
 ###UML结构图###
-![StrategyPattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/StrategyPattern.png)
+![StrategyPattern](https://94275.cn/imgs/post/StrategyPattern.png)
 
 ###源码###
 IStrategy:抽象算法类

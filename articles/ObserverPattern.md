@@ -17,7 +17,7 @@ Observer Pattern
 4. 虽然观察者模式可以随时使观察者知道所观察的对象发生了变化，但是观察者模式没有相应的机制使观察者知道所观察的对象是怎么发生变化的。
   
 ###UML结构图###
-![ObserverPattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/ObserverPattern.png)
+![ObserverPattern](https://94275.cn/imgs/post/ObserverPattern.png)
 
 ###源码###
 Subject:主题或叫抽象通知者

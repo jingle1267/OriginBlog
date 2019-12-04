@@ -15,7 +15,7 @@
   产品族的扩展将是一件十分费力的事情，假如产品族中需要增加一个新的产品，则几乎所有的工厂类都需要进行修改。所以使用抽象工厂模式时，对产品等级结构的划分是非常重要的。
 
 ###UML结构图###
-![AbstractFactoryPattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/AbstractFactoryPattern.png)
+![AbstractFactoryPattern](https://94275.cn/imgs/post/AbstractFactoryPattern.png)
 
 ###源码###
 IFactory:抽象工厂类

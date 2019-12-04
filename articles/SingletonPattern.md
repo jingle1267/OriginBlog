@@ -18,7 +18,7 @@ Singleton Pattern
 2. 单例类的职责过重，在一定程度上违背了“单一职责原则”。
 
 ###UML结构图###
-![SingletonPattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/SingletonPattern.png)
+![SingletonPattern](https://94275.cn/imgs/post/SingletonPattern.png)
 
 ###源码###
 SingletonA：饿汉是单例类

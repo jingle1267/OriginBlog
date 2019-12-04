@@ -18,7 +18,7 @@
   每一个类都必须配备一个克隆方法。配备克隆方法需要对类的功能进行通盘考虑，这对于全新的类来说不是很难，而对于已经有的类不一定很容易，特别是当一个类引用不支持序列化的间接对象，或者引用含有循环结构的时候。
   
 ###UML结构图###
-![PrototypePattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/PrototypePattern.png)
+![PrototypePattern](https://94275.cn/imgs/post/PrototypePattern.png)
 
 ###源码###
 Prototype:抽象原型角色

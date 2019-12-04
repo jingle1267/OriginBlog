@@ -15,7 +15,7 @@ Facade Pattern
   不符合开闭原则。
 
 ###UML结构图###
-![FacadePattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/FacadePattern.png)
+![FacadePattern](https://94275.cn/imgs/post/FacadePattern.png)
 
 ###源码###
 Facade:外观类

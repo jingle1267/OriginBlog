@@ -1,7 +1,7 @@
 设计模式
 =======
 
-[设计模式专题](http://ihongqiqu.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/) <br>
+[设计模式专题](http://94275.cn/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/) <br>
 
 ### 创建型
 
@@ -43,7 +43,7 @@
 
 创建型 | 结构型 | 行为型 
  --- | --- | --- 
-[工厂方法](http://ihongqiqu.com/2014/11/21/factorymethodpattern/)<br>[简单工厂](http://ihongqiqu.com/2014/11/22/simplefactorypattern/) <br>[抽象工厂](http://ihongqiqu.com/2014/11/24/abstractfactorypattern/)<br>[建造者模式](http://ihongqiqu.com/2014/11/30/builderpattern/)<br>[单例模式](http://ihongqiqu.com/2014/12/08/singletonpattern/)<br>[原型模式](http://ihongqiqu.com/2014/11/27/prototypepattern/) <br> | [组合模式](http://ihongqiqu.com/2014/12/04/compositepattern/) <br>[外观模式](http://ihongqiqu.com/2014/11/29/facadepattern/) <br>[桥接模式](http://ihongqiqu.com/2014/12/09/bridgepattern/) <br>[代理模式](http://ihongqiqu.com/2014/11/25/proxypattern/) <br>[享元模式](http://ihongqiqu.com/2016/09/19/Flyweight-Pattern/) <br> [适配器模式](http://ihongqiqu.com/2014/12/02/adapterpattern/) <br>[装饰模式](http://ihongqiqu.com/2014/11/20/design-pattern-decorator/) <br> | [策略模式](http://ihongqiqu.com/2014/11/23/strategypattern/) <br>[模板方法](http://ihongqiqu.com/2014/11/28/templatemethodpattern/) <br>[状态模式](http://ihongqiqu.com/2014/11/26/statepattern/) <br> [观察者模式](http://ihongqiqu.com/2014/12/01/observerpattern/) <br>[备忘录模式](http://ihongqiqu.com/2014/12/03/mementopattern/) <br>[迭代器模式](http://ihongqiqu.com/2014/12/05/iteratorpattern/) <br>[命令模式](http://ihongqiqu.com/2016/09/13/Command-Design-Pattern/) <br>[职责链模式](http://ihongqiqu.com/2016/09/13/Chain-of-Responsibility/) <br>[解释器模式](http://ihongqiqu.com/2016/09/14/Interpreter-Pattern/) <br>[访问者模式](http://ihongqiqu.com/2016/09/20/Visitor-Pattern/) <br>[中介者模式](http://ihongqiqu.com/2016/09/18/Mediator-Pattern/) <br> 
+[工厂方法](http://94275.cn/2014/11/21/factorymethodpattern/)<br>[简单工厂](http://94275.cn/2014/11/22/simplefactorypattern/) <br>[抽象工厂](http://94275.cn/2014/11/24/abstractfactorypattern/)<br>[建造者模式](http://94275.cn/2014/11/30/builderpattern/)<br>[单例模式](http://94275.cn/2014/12/08/singletonpattern/)<br>[原型模式](http://94275.cn/2014/11/27/prototypepattern/) <br> | [组合模式](http://94275.cn/2014/12/04/compositepattern/) <br>[外观模式](http://94275.cn/2014/11/29/facadepattern/) <br>[桥接模式](http://94275.cn/2014/12/09/bridgepattern/) <br>[代理模式](http://94275.cn/2014/11/25/proxypattern/) <br>[享元模式](http://94275.cn/2016/09/19/Flyweight-Pattern/) <br> [适配器模式](http://94275.cn/2014/12/02/adapterpattern/) <br>[装饰模式](http://94275.cn/2014/11/20/design-pattern-decorator/) <br> | [策略模式](http://94275.cn/2014/11/23/strategypattern/) <br>[模板方法](http://94275.cn/2014/11/28/templatemethodpattern/) <br>[状态模式](http://94275.cn/2014/11/26/statepattern/) <br> [观察者模式](http://94275.cn/2014/12/01/observerpattern/) <br>[备忘录模式](http://94275.cn/2014/12/03/mementopattern/) <br>[迭代器模式](http://94275.cn/2014/12/05/iteratorpattern/) <br>[命令模式](http://94275.cn/2016/09/13/Command-Design-Pattern/) <br>[职责链模式](http://94275.cn/2016/09/13/Chain-of-Responsibility/) <br>[解释器模式](http://94275.cn/2016/09/14/Interpreter-Pattern/) <br>[访问者模式](http://94275.cn/2016/09/20/Visitor-Pattern/) <br>[中介者模式](http://94275.cn/2016/09/18/Mediator-Pattern/) <br> 
 
 
 Markdown版本:

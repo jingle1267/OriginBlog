@@ -19,7 +19,7 @@ Bridge Pattern
 2. 桥接模式要求正确识别出系统中两个独立变化的维度，因此其使用范围具有一定的局限性。
 
 ###UML结构图###
-![BridgePattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/BridgePattern.png)
+![BridgePattern](https://94275.cn/imgs/post/BridgePattern.png)
 
 ###源码###
 Implementor:实现接口

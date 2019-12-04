@@ -15,7 +15,7 @@ TemplateMethodPattern
   每个不同的实现都需要定义一个子类，这会导致类的个数增加，系统更加庞大，设计也更加抽象，但是更加符合“单一职责原则”，使得类的内聚性得以提高。
   
 ###UML结构图###
-![TemplateMethodPattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/TemplateMethodPattern.png)
+![TemplateMethodPattern](https://94275.cn/imgs/post/TemplateMethodPattern.png)
 
 ###源码###
 AbstractClass:抽象模板

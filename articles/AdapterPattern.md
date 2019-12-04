@@ -16,9 +16,9 @@ Adapter Pattern
 
 ###UML结构图###
 类适配UML结构图：
-![ClassAdapterPattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/ClassAdapterPattern.png)
+![ClassAdapterPattern](https://94275.cn/imgs/post/ClassAdapterPattern.png)
 对象适配UML结构图：
-![ObjectAdapterPattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/ObjectAdapterPattern.png)
+![ObjectAdapterPattern](https://94275.cn/imgs/post/ObjectAdapterPattern.png)
 
 ###源码###
 Source:源,需要适配的对象

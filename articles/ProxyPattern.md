@@ -23,7 +23,7 @@ Proxy Pattern
 2. 实现代理模式需要额外的工作，有些代理模式的实现非常复杂。
 
 ###UML结构图###
-![ProxyPattern](https://github.com/jingle1267/octopress/raw/master/source/imgs/post/ProxyPattern.png)
+![ProxyPattern](https://94275.cn/imgs/post/ProxyPattern.png)
 
 ###源码###
 IProject:抽象借口
